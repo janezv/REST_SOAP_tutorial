@@ -3,3 +3,12 @@
 ################################################################################
 
 /APP/C# App/.vscode
+
+
+APP/C# App/DotNetSOAPStarter/DotNetSOAPStarter/.vs/
+
+
+**/.vscode/
+**/obj/
+**/bin/
+**/properties/
