@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './pages/App';
+import App from './pages/weather';
 import reportWebVitals from './reportWebVitals';
-import Home from './pages/Home';
+import Base from './pages/InitBase';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Base />
   </React.StrictMode>
 );
 

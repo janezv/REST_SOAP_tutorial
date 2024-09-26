@@ -14,7 +14,7 @@ function Random() {
 
     <>
       <div>
-        <h1> Ahoj</h1>
+        <h1> Random api page</h1>
         {data ? <h2>{data.id}</h2> : 'Loading...'}
         {data ? <h2>{data.first_name}</h2> : 'Loading...'}
         {data ? <h2>{data.last_name}</h2> : 'Loading...'}
