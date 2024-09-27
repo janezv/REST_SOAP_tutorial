@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './pages/weather';
+import App from './pages/Countries';
 import reportWebVitals from './reportWebVitals';
 import Base from './pages/InitBase';
 

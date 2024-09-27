@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link } from "react-router-dom";
-import App from "./weather"
+import App from "./Countries"
 import Random from "./Random"
 
 function Home(){
@@ -9,12 +9,12 @@ function Home(){
         <h1> home API page</h1>
             <Link to="/radnom">
                 <button>
-                Go to Page 2 
+                Random Page
                 </button>
             </Link>
-            <Link to="/weather">
+            <Link to="/Countries">
                 <button>
-                Go to Page 2 
+                Countries Page
                 </button>
             </Link>
         </>

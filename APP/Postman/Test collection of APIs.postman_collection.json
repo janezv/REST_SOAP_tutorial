@@ -53,10 +53,23 @@
 			"response": []
 		},
 		{
-			"name": "Weather https://web.postman.co/workspace/API~b3b585c3-c45f-42ff-b310-eb5a4887bf25/request/3708638-aa58a2d0-2c2a-4634-897d-928e5748adcf",
+			"name": "Countries",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/name/slovenia",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"name",
+						"slovenia"
+					]
+				}
 			},
 			"response": []
 		}

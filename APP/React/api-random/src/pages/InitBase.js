@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Weather from "./weather"
+import Countries from "./Countries"
 import Random from "./Random"
 import Home from "./Home"
 
@@ -13,7 +13,7 @@ function Base(){
             <Routes>
                 <Route path="/*" element={<Home />} />
                 <Route path="/radnom" element={<Random />} />
-                <Route path="/weather" element={<Weather />} />
+                <Route path="/Countries" element={<Countries />} />
             </Routes>
         </Router>
         </>
